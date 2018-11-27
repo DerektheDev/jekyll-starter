@@ -1,0 +1,54 @@
+# Ignore hidden folders #
+# This takes care of .tmp, .sass-cache, and many others #
+.*/
+
+# secrets files
+.secrets
+.ftppass
+
+# Ignore OS generated files #
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Always-ignore files and folders #
+*.csv
+*.dat
+*.diff
+*.err
+*.gz
+*.log
+*.orig
+*.out
+*.pid
+*.rej
+*.seed
+*.sublime-*
+*.swn
+*.swo
+*.swp
+*.yo-rc.json
+*~
+.jekyll-metadata
+.tmp
+lib-cov
+logs
+npm-debug.log
+pids
+results
+
+# Ignore packages #
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Ignore support folders
+_bower_components
+node_modules
+dist
